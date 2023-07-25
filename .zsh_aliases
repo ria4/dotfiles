@@ -1,3 +1,4 @@
+alias hx='helix'
 alias ls='ls --group-directories-first --color'
 alias la='ls -a'
 alias ll='ls -lh'

@@ -12,13 +12,11 @@ alias gitl='git log -3'
 # alias mars='pipenv run python /home/ria/weenat-back/core/manage.py runserver'
 # alias lint='pipenv run black --diff --color . && pipenv run isort --diff --color .'
 
-function grepr { grep -rI "$1" . | cut -c 3-; }
-export -f grepr
+grepr() { grep -rI "$1" . | cut -c 3-; }
 
-function gr {
+gr() {
     grep -rI \
         --exclude-dir={data,htmlcov,__pycache__,static,.git,.pytest_cache} \
         "$1" . \
     | cut -c 3-;
 }
-export -f gr

@@ -20,3 +20,8 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Restore nice Manjaro teal for directory background
 typeset -g POWERLEVEL9K_DIR_BACKGROUND=30
+
+# Alias definitions
+if [ -f ~/.zsh_aliases ]; then
+  . ~/.zsh_aliases
+fi

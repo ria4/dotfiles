@@ -1,0 +1,27 @@
+inherits = "voxed"
+
+# Code
+comment = { fg = "bgrey", modifiers = ["italic"] }
+string = { fg = "redish", modifiers = ["italic"] }
+keyword = { fg = "purple-soft", modifiers = ["bold"] }
+
+# Framing
+"ui.gutter" = { bg = "#0e0f12" }
+"ui.gutter.selected" = { bg = "bgrey-zero" }
+"ui.linenr.selected" = { fg = "light-grey", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "bgrey-zero" }
+"ui.cursorline.primary" = { bg = "bgrey-zero" }
+
+# Picker
+"ui.background" = { fg = "white-soft", bg = "#1f1f21" }
+"ui.background.separator" = { fg = "white-soft" }
+"ui.highlight" = { bg = "bgrey-zero" }
+"ui.text" = { fg = "functionish" }
+"ui.text.focus" = { fg = "white-soft", bg = "bgrey-zero", modifiers = ["bold"] }
+"ui.text.inactive" = "functionish"
+special = "light-blue"
+
+[palette]
+white-soft = "#d6d6d6"
+purple-soft = "#7f4bb8"
+bgrey-zero = "#2c2f38"

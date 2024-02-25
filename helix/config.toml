@@ -1,0 +1,29 @@
+theme = "voxed_edit"
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+"*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
+"#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
+
+[editor]
+scrolloff = 1
+line-number = "relative"
+cursorline = true
+text-width = 88
+
+[editor.statusline]
+right = ["version-control", "diagnostics", "register", "position", "file-encoding"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.search]
+smart-case = false
+
+[editor.soft-wrap]
+enable = true
+
+# [editor.whitespace.render]
+# space = "trailing"
+# not merged yet, see https://github.com/helix-editor/helix/pull/7215

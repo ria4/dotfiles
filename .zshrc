@@ -25,3 +25,8 @@ typeset -g POWERLEVEL9K_DIR_BACKGROUND=30
 if [ -f ~/.zsh_aliases ]; then
   . ~/.zsh_aliases
 fi
+
+# Secrets definitions
+if [ -f ~/.zsh_secrets ]; then
+  . ~/.zsh_secrets
+fi

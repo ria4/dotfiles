@@ -7,6 +7,10 @@ alias gitl='git log -3'
 
 # alias cat='lolcat -t -p 30 -F 0.01'
 
+alias vtln='pipenv shell'
+alias mashp='./manage.py shell_plus --quiet-load'
+alias mars='./manage.py runserver'
+
 # alias vcore='workon weenat-back-core'
 # alias bastionvpn='sudo openvpn --config /etc/openvpn/client/oriane.ovpn'
 # alias mashp='pipenv run python /home/ria/weenat-back/core/manage.py shell_plus --quiet-load'
@@ -20,4 +24,8 @@ gr() {
         --exclude-dir={data,htmlcov,media,__pycache__,static,.git,.pytest_cache} \
         "$1" . \
     | cut -c 3-;
+}
+
+pass(){
+  bw get password "$1" | xclip -se c
 }

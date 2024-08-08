@@ -3,5 +3,9 @@ name = "html"
 auto-format = false
 
 [[language]]
+name = "css"
+auto-format = false
+
+[[language]]
 name = "python"
 rulers = [88]

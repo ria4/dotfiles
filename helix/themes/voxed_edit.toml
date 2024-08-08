@@ -1,6 +1,7 @@
 inherits = "voxed"
 
 # Code
+namespace = "orange"
 comment = { fg = "bgrey", modifiers = ["italic"] }
 string = { fg = "redish", modifiers = ["italic"] }
 keyword = { fg = "purple-soft", modifiers = ["bold"] }
@@ -22,6 +23,7 @@ keyword = { fg = "purple-soft", modifiers = ["bold"] }
 special = "light-blue"
 
 [palette]
+orange = "#fcae3f"
 white-soft = "#d6d6d6"
 purple-soft = "#7f4bb8"
 bgrey-zero = "#2c2f38"
